@@ -7,7 +7,7 @@
 #
 
 Name:           myrulib
-Version:        0.28.13
+Version:        0.29.8
 Release:        1
 License:        GPLv3
 Summary:        E-Book Library Manager
@@ -29,6 +29,7 @@ Authors:
 %prep
 %setup -q
 [ ! -x configure ] && %{__chmod} +x configure
+chmod -R a+r .
 
 %build
 %configure \
@@ -41,8 +42,8 @@ Authors:
 %find_lang %{name}
 
 %files -f %{name}.lang
-%defattr(-,root,root)
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/*/%{name}.png
 %{_datadir}/pixmaps/%{name}.png
+%doc AUTHORS README
