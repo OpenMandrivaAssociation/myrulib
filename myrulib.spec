@@ -47,3 +47,14 @@ chmod -R a+r .
 %{_datadir}/icons/hicolor/*/*/%{name}.png
 %{_datadir}/pixmaps/%{name}.png
 %doc AUTHORS README
+
+
+%changelog
+* Sun Jun 10 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.29.8-1
++ Revision: 804325
+- update to 0.29.8
+
+* Thu Jan 19 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.28.13-1
++ Revision: 762401
+- imported package myrulib
+
