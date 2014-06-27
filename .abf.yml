@@ -1,2 +1,4 @@
+removed_sources:
+  myrulib-0.29.8.tar.bz2: 964d5daaddd4903dfa7529eddecab89f8f40bf80
 sources:
-  "myrulib-0.29.8.tar.bz2": 964d5daaddd4903dfa7529eddecab89f8f40bf80
+  myrulib-0.29.14.tar.bz2: e77efd8230a6aaf8e10e044d9e3cbbf78e05efd1

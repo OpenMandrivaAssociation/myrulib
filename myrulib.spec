@@ -7,15 +7,15 @@
 #
 
 Name:           myrulib
-Version:        0.29.8
+Version:        0.29.14
 Release:        1
 License:        GPLv3
 Summary:        E-Book Library Manager
 URL:            http://myrulib.lintest.ru
 Group:          Office
 Source0:        http://www.lintest.ru/pub/%{name}-%{version}.tar.bz2
-BuildRequires:  libicu-devel
-BuildRequires:  libxml2-devel
+BuildRequires:  pkgconfig(icu-i18n)
+BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  wxgtku2.8-devel >= 2.8.10
 BuildRequires:  bzip2-devel
 
@@ -47,14 +47,3 @@ chmod -R a+r .
 %{_datadir}/icons/hicolor/*/*/%{name}.png
 %{_datadir}/pixmaps/%{name}.png
 %doc AUTHORS README
-
-
-%changelog
-* Sun Jun 10 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.29.8-1
-+ Revision: 804325
-- update to 0.29.8
-
-* Thu Jan 19 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.28.13-1
-+ Revision: 762401
-- imported package myrulib
-
