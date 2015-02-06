@@ -8,7 +8,7 @@
 
 Name:           myrulib
 Version:        0.29.16
-Release:        1
+Release:        2
 License:        GPLv3
 Summary:        E-Book Library Manager
 URL:            http://myrulib.lintest.ru
