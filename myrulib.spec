@@ -11,7 +11,7 @@ Version:        0.29.16
 Release:        2
 License:        GPLv3
 Summary:        E-Book Library Manager
-URL:            http://myrulib.lintest.ru
+URL:            https://myrulib.lintest.ru
 Group:          Office
 Source0:        http://www.lintest.ru/pub/%{name}-%{version}.tar.bz2
 BuildRequires:  pkgconfig(icu-i18n)
