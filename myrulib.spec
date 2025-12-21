@@ -14,6 +14,11 @@ Summary:        E-Book Library Manager
 URL:            https://myrulib.lintest.ru
 Group:          Office
 Source0:        http://www.lintest.ru/pub/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(icu-i18n)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  wxgtku2.8-devel >= 2.8.10
